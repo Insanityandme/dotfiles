@@ -1,3 +1,8 @@
-- clean: []
-- link: {}
-- shell: []
+- clean: ['~']
+- link: 
+    ~/.bash: bash/
+    ~/.bashrc: bashrc
+    ~/.bash_profile: bash_profile
+    ~/.vim: vim/
+    ~/.vimrc: vimrc
+    ~/.tmux.conf: tmux.conf
