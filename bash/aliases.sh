@@ -6,4 +6,4 @@ alias ls='ls -Gp'
 alias ll='ls -alrtGpF'
 
 # Going down one directory
-alias ..='cd .."
+alias ..='cd ..'
