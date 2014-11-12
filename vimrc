@@ -34,8 +34,7 @@ let g:netrw_winsize = 20 " Netrw window size (20%)
 " Bindings
 "---------
 let mapleader = "\<Space>"
-:map <F3> :Vex <cr>
-
+:map <F3> :Vex <cr> 
 "-------------------
 " Disable arrow keys, a good reminder!
 "-------------------
@@ -43,3 +42,6 @@ nnoremap <left> :echoe "use h"<cr>
 nnoremap <right> :echoe "use l"<cr>
 nnoremap <up> :echoe "use k"<cr>
 nnoremap <down> :echoe "use j"<cr>
+
+" Tab through windows
+nmap <Tab> <C-W>
