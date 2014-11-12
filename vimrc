@@ -1,5 +1,5 @@
 set nocompatible " not vi compatible
-" another comment lol
+
 "--------------
 " Load pathogen
 "-------------- 
