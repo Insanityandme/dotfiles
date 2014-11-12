@@ -45,3 +45,9 @@ nnoremap <down> :echoe "use j"<cr>
 
 " Tab through windows
 nmap <Tab> <C-W>
+
+" Restore cursor position
+autocmd BufReadPost *
+\ if line("'\"") > 1 && line("'\"") <= line("$") |
+\   exe "normal! g`\"" |
+\ endif
