@@ -51,3 +51,7 @@ autocmd BufReadPost *
 \ if line("'\"") > 1 && line("'\"") <= line("$") |
 \   exe "normal! g`\"" |
 \ endif
+
+" Scroll down/up 5 lines
+nmap <C-j> 5<C-e>
+nmap <C-k> 5<C-y>
