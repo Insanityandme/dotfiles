@@ -1,11 +1,20 @@
-set nocompatible " not vi compatible
+" not vi compatible
+set nocompatible
 
-"--------------
-" Load pathogen
-"-------------- 
-call pathogen#infect() 
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'vim-ruby'
+Plugin 'vim-gotham'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+
 colorscheme gotham256
-
 
 "---------------------
 " Basic editing config
@@ -35,6 +44,7 @@ let g:netrw_winsize = 20 " Netrw window size (20%)
 "---------
 let mapleader = "\<Space>"
 :map <F3> :Vex <cr> 
+
 "-------------------
 " Disable arrow keys, a good reminder!
 "-------------------
