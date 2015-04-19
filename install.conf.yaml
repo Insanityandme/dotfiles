@@ -10,4 +10,4 @@
     ~/.irbrc : irbrc
 
 - shell: 
-  - [git submodule update --init --recursive, Installing submodule]
+  - [git submodule update --init --recursive, Installing submodules]
