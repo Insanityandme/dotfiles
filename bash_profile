@@ -11,10 +11,8 @@ fi
 
 # MacPorts Installer addition on 2015-03-18_at_11:34:23: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+
 # Finished adapting your PATH environment variable for use with MacPorts.
-
-
-PATH="/Applications/XAMPP/xamppfiles/bin:$PATH"
 
 # Setting PATH for Python 3.5
 # The orginal version is saved in .bash_profile.pysave
