@@ -7,3 +7,5 @@ alias ll='ls -alrtGpF'
 
 # Going down one directory
 alias ..='cd ..'
+
+alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'

@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/insanityandme/www/PythonProjects/digital-life/polls/templates'
+let g:netrw_dirhist_2='/Users/insanityandme/www/PythonProjects/digital-life'
+let g:netrw_dirhist_3='/Users/insanityandme/www/PythonProjects/digital-life/my_site'
+let g:netrw_dirhist_4='/Users/insanityandme/www/PythonProjects/digital-life'
+let g:netrw_dirhist_5='/Users/insanityandme/www/PythonProjects/digital-life/polls'
+let g:netrw_dirhist_6='/Users/insanityandme/www/PythonProjects/digital-life'
+let g:netrw_dirhist_7='/Users/insanityandme/www/PythonProjects/digital-life/polls/templates'
+let g:netrw_dirhist_8='/Users/insanityandme/www/PythonProjects/digital-life/polls/templates/polls'
+let g:netrw_dirhist_9='/Users/insanityandme/dotfiles/vim/bundle'

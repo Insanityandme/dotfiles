@@ -74,6 +74,10 @@ nnoremap <down> :echoe "use j"<cr>
 " Tab through windows
 nmap <Tab> <C-W>
 
+" Jump between tabs
+nmap <leader>1 gT
+nmap <leader>2 gT
+
 " Restore cursor position
 autocmd BufReadPost *
 \ if line("'\"") > 1 && line("'\"") <= line("$") |
@@ -83,3 +87,20 @@ autocmd BufReadPost *
 " Scroll down/up 5 lines
 nmap <C-j> 5<C-e>
 nmap <C-k> 5<C-y>
+
+" To ensure that all developers are using a standard tab format (as long as
+" they are using Vim), you can add a Vim modeline (special comment) to your
+" files, to set people in the same mode for that file. 
+" Example, # vim: ai ts=4 sts=4 sw=4
+
+" Tab Setting for Python and Vim
+autocmd FileType python set sw=4
+autocmd FileType python set ts=4
+autocmd FileType python set sts=4
+
+" Recommended settings for YCM (YouCompleteMe) 
+let g:ycm_collect_identifiers_from_tags_files = 1 " Let YCM read tags from Ctags file
+let g:ycm_use_ultisnips_completer = 1 " Default 1, just ensure
+let g:ycm_seed_identifiers_with_syntax = 1 " Completion for programming language's keyword
+let g:ycm_complete_in_comments = 1 " Completion in comments
+let g:ycm_complete_in_strings = 1 " Completion in string
