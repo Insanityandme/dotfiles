@@ -12,11 +12,11 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Plugins
+Plugin 'valloric/YouCompleteMe'
 Plugin 'vim-ruby'
 Plugin 'ervandew/supertab'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
-Plugin 'syntastic'
+Plugin 'scrooloose/syntastic'
 Plugin 'vim-virtualenv'
 Plugin 'wakatime/vim-wakatime'
 
