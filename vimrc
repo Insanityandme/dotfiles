@@ -19,6 +19,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'syntastic'
 Plugin 'vim-virtualenv'
 
+
 " Snippets are seperated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
 
@@ -133,3 +134,4 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 
+Bundle 'wakatime/vim-wakatime'
