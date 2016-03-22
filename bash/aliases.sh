@@ -9,3 +9,6 @@ alias ll='ls -alrtGpF'
 alias ..='cd ..'
 
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+
+# Set the correct term for tmux so solarized theme works in vim
+# alias tmux="TERM=screen-color-256color-bce tmux"

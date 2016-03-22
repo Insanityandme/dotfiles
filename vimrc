@@ -18,13 +18,14 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'syntastic'
 Plugin 'vim-virtualenv'
-
+Plugin 'wakatime/vim-wakatime'
 
 " Snippets are seperated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
 
 " colorscheme
 Plugin 'vim-gotham'
+Plugin 'vim-colors-solarized'
 
 " All of your Plugins must be added before the following line
 call vundle#end()             
@@ -44,9 +45,12 @@ filetype plugin indent on
 "---------------------
 " Basic editing config
 "---------------------
-colorscheme gotham256
+syntax on " syntax highlighting
+let g:solarized_termcolors=256
+set t_Co=256
+set background=light
+colorscheme solarized
 
-syntax on " syntax highlighing
 set nu " number lines
 set backspace=indent,eol,start " allow backspacing over everything
 filetype indent on
@@ -123,6 +127,9 @@ let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 let g:ycm_key_list_select_completion = ['<C-j>', '<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
 
+" Fixing a bug where Python quits when opening MacVim
+let $PATH = '/usr/local/bin:'.$PATH
+
 " Recommended syntastic settings 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -132,6 +139,3 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
-
-Bundle 'wakatime/vim-wakatime'
