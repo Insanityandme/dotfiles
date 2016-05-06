@@ -1,7 +1,7 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/insanityandme/www/PythonProjects/digital-life/polls/templates/polls'
-let g:netrw_dirhist_2='/Users/insanityandme/www/PythonProjects/digital-life/polls'
-let g:netrw_dirhist_3='/Users/insanityandme/dotfiles/bash'
-let g:netrw_dirhist_4='/Users/insanityandme/www/PythonProjects/python-the-hard-way/import site; site.addsitedir("'
-let g:netrw_dirhist_5='/Users/insanityandme/www/PythonProjects/python-the-hard-way'
+let g:netrw_dirhist_1='/Users/insanityandme/dotfiles'
+let g:netrw_dirhist_2='/Users/insanityandme/dotfiles/vim/syntax'
+let g:netrw_dirhist_3='/Users/insanityandme/dotfiles'
+let g:netrw_dirhist_4='/Users/insanityandme/www/PythonProjects/python-the-hard-way/tetromino'
+let g:netrw_dirhist_5='/Users/insanityandme/www/PythonProjects/python-the-hard-way/codewars'

@@ -27,6 +27,9 @@ Plugin 'honza/vim-snippets'
 Plugin 'vim-gotham'
 Plugin 'vim-colors-solarized'
 
+" syntax checker for the style guide PEP-8 in python
+Plugin 'vim-flake8'
+
 " All of your Plugins must be added before the following line
 call vundle#end()             
 
@@ -57,6 +60,16 @@ set nu " number lines
 set backspace=indent,eol,start " allow backspacing over everything
 filetype indent on
 set showmatch " show the matching part of the pair [] {} and ()
+
+" tab through windows in vim
+nmap <Tab> <C-w>w
+nmap <S-Tab> <C-w>h
+
+" changing windows vertically and horizontally
+nmap <Up> <C-w>k
+nmap <Down> <C-w>j
+nmap <Left> <C-w>h
+nmap <Right> <C-w>l
 
 " use 2 spaces instead of tabs during formatting
 set expandtab
