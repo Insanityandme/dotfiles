@@ -45,6 +45,8 @@ filetype plugin indent on
 "---------------------
 " Basic editing config
 "---------------------
+
+set clipboard=unnamed " use clipboards of vim and wim
 syntax on " syntax highlighting
 let g:solarized_termcolors=256
 set t_Co=256
@@ -54,6 +56,7 @@ colorscheme solarized
 set nu " number lines
 set backspace=indent,eol,start " allow backspacing over everything
 filetype indent on
+set showmatch " show the matching part of the pair [] {} and ()
 
 " use 2 spaces instead of tabs during formatting
 set expandtab
@@ -109,6 +112,8 @@ nmap <C-k> 5<C-y>
 autocmd FileType python set sw=4
 autocmd FileType python set ts=4
 autocmd FileType python set sts=4
+" autocmd BufNewFile,BufRead *.py set cc=80
+
 
 " Recommended settings for YCM (YouCompleteMe) 
 let g:ycm_collect_identifiers_from_tags_files = 1 " Let YCM read tags from Ctags file
@@ -126,9 +131,6 @@ let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 let g:ycm_key_list_select_completion = ['<C-j>', '<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
-
-" Fixing a bug where Python quits when opening MacVim
-let $PATH = '/usr/local/bin:'.$PATH
 
 " Recommended syntastic settings 
 set statusline+=%#warningmsg#

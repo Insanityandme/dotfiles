@@ -10,5 +10,6 @@ alias ..='cd ..'
 
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 
-# Set the correct term for tmux so solarized theme works in vim
-# alias tmux="TERM=screen-color-256color-bce tmux"
+alias pthway='source /Users/insanityandme/www/.virtualenvs/python-the-hard-way/bin/activate'
+alias mysite='source /Users/insanityandme/www/.virtualenvs/my_site/bin/activate'
+
