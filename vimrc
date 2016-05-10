@@ -94,13 +94,13 @@ let mapleader = "\<Space>"
 "-------------------
 " Disable arrow keys, a good reminder!
 "-------------------
-nnoremap <left> :echoe "use h"<cr>
-nnoremap <right> :echoe "use l"<cr>
-nnoremap <up> :echoe "use k"<cr>
-nnoremap <down> :echoe "use j"<cr>
+" nnoremap <left> :echoe "use h"<cr>
+" nnoremap <right> :echoe "use l"<cr>
+" nnoremap <up> :echoe "use k"<cr>
+" nnoremap <down> :echoe "use j"<cr>
 
 " Tab through windows
-nmap <Tab> <C-W>
+nmap <Tab> <C-W>w
 
 " Jump between tabs
 nmap <leader>1 gT
