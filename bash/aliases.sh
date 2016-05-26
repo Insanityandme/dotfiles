@@ -12,3 +12,4 @@ alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 
 alias pthway='source /Users/insanityandme/www/.virtualenvs/python-the-hard-way/bin/activate'
 alias mysite='source /Users/insanityandme/www/.virtualenvs/my_site/bin/activate'
+alias dg='source /Users/insanityandme/www/.virtualenvs/digital-life/bin/activate'

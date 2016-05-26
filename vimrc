@@ -125,8 +125,6 @@ nmap <C-k> 5<C-y>
 autocmd FileType python set sw=4
 autocmd FileType python set ts=4
 autocmd FileType python set sts=4
-" autocmd BufNewFile,BufRead *.py set cc=80
-
 
 " Recommended settings for YCM (YouCompleteMe) 
 let g:ycm_collect_identifiers_from_tags_files = 1 " Let YCM read tags from Ctags file
