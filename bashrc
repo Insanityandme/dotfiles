@@ -8,7 +8,7 @@ export PS1="\e[033mø \W \e[34m>\e[033m "
 
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
 export WORKON_HOME=$HOME/www/.virtualenvs
-export PROJECT_HOME=$HOME/www/PythonProjects
+export PROJECT_HOME=$HOME/www/python
 # source /usr/local/bin/virtualenvwrapper.sh
 
 # Solving the PATH issue with homebrew, see http://rkulla.blogspot.se/2014/03/the-path-to-homebrew.html for more details
