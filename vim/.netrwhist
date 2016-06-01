@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/insanityandme/dotfiles'
 let g:netrw_dirhist_2='/Users/insanityandme/dotfiles/vim/syntax'
 let g:netrw_dirhist_3='/Users/insanityandme/dotfiles'
@@ -7,3 +7,5 @@ let g:netrw_dirhist_4='/Users/insanityandme/www/PythonProjects/python-the-hard-w
 let g:netrw_dirhist_5='/Users/insanityandme/www/PythonProjects/python-the-hard-way/codewars'
 let g:netrw_dirhist_6='/Users/insanityandme/www/PythonProjects/python-the-hard-way'
 let g:netrw_dirhist_7='/Users/insanityandme/dotfiles/bash'
+let g:netrw_dirhist_8='/Users/insanityandme/Desktop/projects/digital_life'
+let g:netrw_dirhist_9='/Users/insanityandme/Desktop/projects/digital_life/tools_n_commands'

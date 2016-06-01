@@ -9,10 +9,10 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
-Plugin 'valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-ruby'
 Plugin 'ervandew/supertab'
 Plugin 'SirVer/ultisnips'
@@ -24,7 +24,6 @@ Plugin 'wakatime/vim-wakatime'
 Plugin 'honza/vim-snippets'
 
 " colorscheme
-Plugin 'vim-gotham'
 Plugin 'vim-colors-solarized'
 
 " syntax checker for the style guide PEP-8 in python

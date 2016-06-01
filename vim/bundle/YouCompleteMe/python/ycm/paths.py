@@ -54,14 +54,18 @@ def Memoize( obj ):
 def PathToPythonInterpreter():
   from ycmd import utils
 
-  python_interpreter = vim.eval( 'g:ycm_path_to_python_interpreter' )
+  python_interpreter = vim.eval( 'g:ycm_server_python_interpreter' )
 
   if python_interpreter:
     if IsPythonVersionCorrect( python_interpreter ):
       return python_interpreter
 
-    raise RuntimeError( "Path in 'g:ycm_path_to_python_interpreter' option "
+    raise RuntimeError( "Path in 'g:ycm_server_python_interpreter' option "
                         "does not point to a valid Python 2.6+ or 3.3+." )
+
+  python_interpreter = _PathToPythonUsedDuringBuild()
+  if IsPythonVersionCorrect( python_interpreter ):
+    return python_interpreter
 
   # On UNIX platforms, we use sys.executable as the Python interpreter path.
   # We cannot use sys.executable on Windows because for unknown reasons, it
@@ -86,13 +90,24 @@ def PathToPythonInterpreter():
     return python_interpreter
 
   raise RuntimeError( "Cannot find Python 2.6+ or 3.3+. You can set its path "
-                      "using the 'g:ycm_path_to_python_interpreter' "
+                      "using the 'g:ycm_server_python_interpreter' "
                       "option." )
+
+
+def _PathToPythonUsedDuringBuild():
+  from ycmd import utils
+
+  try:
+    filepath = os.path.join( DIR_OF_YCMD, 'PYTHON_USED_DURING_BUILDING' )
+    return utils.ReadFile( filepath ).strip()
+  # We need to check for IOError for Python2 and OSError for Python3
+  except ( IOError, OSError ):
+    return None
 
 
 def EndsWithPython( path ):
   """Check if given path ends with a python 2.6+ or 3.3+ name."""
-  return PYTHON_BINARY_REGEX.search( path ) is not None
+  return path and PYTHON_BINARY_REGEX.search( path ) is not None
 
 
 def IsPythonVersionCorrect( path ):
@@ -118,7 +133,3 @@ def IsPythonVersionCorrect( path ):
 
 def PathToServerScript():
   return os.path.join( DIR_OF_YCMD, 'ycmd' )
-
-
-def PathToCheckCoreVersion():
-  return os.path.join( DIR_OF_YCMD, 'check_core_version.py' )
