@@ -7,12 +7,16 @@ source ~/.bash/aliases.sh
 export PS1="\e[033mø \W \e[34m>\e[033m "
 
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
-export WORKON_HOME=$HOME/www/.virtualenvs
-export PROJECT_HOME=$HOME/www/python
-# source /usr/local/bin/virtualenvwrapper.sh
+export WORKON_HOME=$HOME/projects/.virtualenvs
+export PROJECT_HOME=$HOME/projects/python
 
-# Solving the PATH issue with homebrew, see http://rkulla.blogspot.se/2014/03/the-path-to-homebrew.html for more details
-export PATH="/usr/local/bin:$PATH:/usr/local/sbin"
+# pip should only run if there is a virtualenv currently activated
+export PIP_REQUIRE_VIRTUALENV=true
+
+gpip(){
+  PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
+
 
 # Setting PATH for Python 2.7
 # The orginal version is saved in .bash_profile.pysave
