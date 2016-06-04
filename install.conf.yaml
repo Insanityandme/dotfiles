@@ -8,4 +8,5 @@
     ~/.vimrc: vimrc
     ~/.tmux.conf: tmux.conf
     ~/.irbrc : irbrc
+    ~/.tmux : tmux
 

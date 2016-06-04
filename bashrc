@@ -6,9 +6,9 @@ source ~/.bash/aliases.sh
 # Changing the apperance of the prompt
 export PS1="\e[033mø \W \e[34m>\e[033m "
 
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
 export WORKON_HOME=$HOME/projects/.virtualenvs
 export PROJECT_HOME=$HOME/projects/python
+source /Library/Frameworks/Python.framework/Versions/2.7/bin/virtualenvwrapper.sh
 
 # pip should only run if there is a virtualenv currently activated
 export PIP_REQUIRE_VIRTUALENV=true

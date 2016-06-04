@@ -12,3 +12,4 @@ alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 
 alias pthway='source /Users/insanityandme/projects/.virtualenvs/lpthway/bin/activate'
 alias rechord='source /Users/insanityandme/projects/.virtualenvs/rechord/bin/activate'
+alias dg='source /Users/insanityandme/projects/.virtualenvs/digital_life/bin/activate'

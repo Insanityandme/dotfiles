@@ -21,3 +21,8 @@ export PATH
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
+
+# Environment Variables for django development, see http://12factor.net/config
+# Apparently this can be set through virtualenvwrapper
+export SOME_SECRET_KEY=1c3-cr3am-15-yummy
+export FILIP_FREEZER_KEY=y34h-r1ght-d0nt-t0uch-my-1c3-cr34m
