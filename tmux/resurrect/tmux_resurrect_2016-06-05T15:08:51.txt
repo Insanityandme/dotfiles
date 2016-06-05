@@ -1,0 +1,24 @@
+pane	14	1	:bash	1	:*	0	:/Users/insanityandme	1	bash	:
+pane	4	1	:bash	1	:*	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	5	1	:bash	1	:*	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	7	1	:[tmux]	1	:*	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	1	:vim	1	:*	0	:/Users/insanityandme	1	bash	:
+pane	digital_life	1	:vim	1	:*	1	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	2	:vim	0	:-	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	2	:vim	0	:-	1	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	3	:vim	0	:	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	3	:vim	0	:	1	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	4	:vim	0	:	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	4	:vim	0	:	1	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	5	:bpython	0	:	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	5	:bpython	0	:	1	:/Users/insanityandme/projects/digital_life	0	bash	:
+window	14	1	1	:*	5f17,131x35,0,0,37
+window	4	1	1	:*	e6b6,181x48,0,0,27
+window	5	1	1	:*	e6b7,181x48,0,0,28
+window	7	1	1	:*	66b0,181x48,0,0,30
+window	digital_life	1	1	:*	fb64,131x35,0,0{95x35,0,0,17,35x35,96,0,18}
+window	digital_life	2	0	:-	3b65,131x35,0,0{95x35,0,0,19,35x35,96,0,20}
+window	digital_life	3	0	:	34af,131x35,0,0{65x35,0,0,21,65x35,66,0,22}
+window	digital_life	4	0	:	3c7a,131x35,0,0[131x17,0,0,23,131x17,0,18,24]
+window	digital_life	5	0	:	3b61,131x35,0,0{95x35,0,0,25,35x35,96,0,26}
+state	14	

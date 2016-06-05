@@ -1,0 +1,22 @@
+pane	0	1	:Vim	0	:	0	:/Users/insanityandme/.dotfiles	1	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim tmux.conf
+pane	0	2	:bash	0	:-	0	:/Users/insanityandme/.dotfiles/tmux/plugins/tmux-resurrect	1	bash	:
+pane	0	3	:bash	1	:*	0	:/Users/insanityandme/.dotfiles	1	bash	:
+pane	digital_life	1	:vim	1	:*	0	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	1	:vim	1	:*	1	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	2	:vim	0	:#	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	2	:vim	0	:#	1	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	3	:vim	0	:#	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	3	:vim	0	:#	1	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	4	:vim	0	:#	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	4	:vim	0	:#	1	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	5	:bpython	0	:#-	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	5	:bpython	0	:#-	1	:/Users/insanityandme/projects/digital_life	0	bash	:
+window	0	1	0	:	ccfd,181x48,0,0,0
+window	0	2	0	:-	ccfe,181x48,0,0,1
+window	0	3	1	:*	cd00,181x48,0,0,3
+window	digital_life	1	1	:*	e36b,181x48,0,0{120x48,0,0,17,60x48,121,0,18}
+window	digital_life	2	0	:#	236a,181x48,0,0{120x48,0,0,19,60x48,121,0,20}
+window	digital_life	3	0	:#	047b,181x48,0,0{90x48,0,0,21,90x48,91,0,22}
+window	digital_life	4	0	:#	0283,181x48,0,0[181x24,0,0,23,181x23,0,25,24]
+window	digital_life	5	0	:#-	a369,181x48,0,0{120x48,0,0,25,60x48,121,0,26}
+state	digital_life	

@@ -1,8 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/insanityandme/projects/digital_life_project/digital_life/config/settings'
 let g:netrw_dirhist_2='/Users/insanityandme/projects/digital_life_project/digital_life/config'
 let g:netrw_dirhist_3='/Users/insanityandme/projects/digital_life_project/digital_life'
 let g:netrw_dirhist_4='/Users/insanityandme/projects/digital_life_project/digital_life/settings'
 let g:netrw_dirhist_5='/Users/insanityandme/projects/digital_life/config/__pycache__'
 let g:netrw_dirhist_6='/Users/insanityandme/.dotfiles/tmux'
+let g:netrw_dirhist_7='/Users/insanityandme/.tmux'
