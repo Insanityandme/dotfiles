@@ -1,0 +1,16 @@
+pane	digital_life	1	:vim	1	:*	0	:/Users/insanityandme	1	bash	:
+pane	digital_life	1	:vim	1	:*	1	:/Users/insanityandme	0	bash	:
+pane	digital_life	2	:vim	0	:-	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	2	:vim	0	:-	1	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	3	:vim	0	:	0	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	3	:vim	0	:	1	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	4	:vim	0	:	0	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	4	:vim	0	:	1	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	5	:bpython	0	:	0	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	5	:bpython	0	:	1	:/Users/insanityandme/projects/digital_life	1	bash	:
+window	digital_life	1	1	:*	af5d,181x48,0,0{120x48,0,0,1,60x48,121,0,2}
+window	digital_life	2	0	:-	af62,181x48,0,0{120x48,0,0,3,60x48,121,0,4}
+window	digital_life	3	0	:	0f77,181x48,0,0{90x48,0,0,5,90x48,91,0,6}
+window	digital_life	4	0	:	59c5,181x48,0,0[181x24,0,0,7,181x23,0,25,8]
+window	digital_life	5	0	:	180d,181x48,0,0{120x48,0,0,9,60x48,121,0,10}
+state	digital_life	

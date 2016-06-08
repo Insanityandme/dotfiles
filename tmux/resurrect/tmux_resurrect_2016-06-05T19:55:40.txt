@@ -1,0 +1,11 @@
+pane	digital_life	1	:vim	0	:	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	2	:vim	0	:	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	3	:vim	0	:	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	4	:vim	0	:-	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	5	:bpython	1	:*	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+window	digital_life	1	0	:	ccfe,181x48,0,0,1
+window	digital_life	2	0	:	cd00,181x48,0,0,3
+window	digital_life	3	0	:	cd02,181x48,0,0,5
+window	digital_life	4	0	:-	cd04,181x48,0,0,7
+window	digital_life	5	1	:*	cd06,181x48,0,0,9
+state	digital_life	

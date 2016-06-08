@@ -4,25 +4,20 @@ SESSION=`basename $PWD`
 tmux -2 new-session -d -s $SESSION
 
 tmux rename-window -t $SESSION:1 vim
-tmux split-window -h
 tmux select-pane -t 0
 tmux resize-pane -R 30
 
 tmux new-window -t $SESSION -a -n vim
-tmux split-window -h
 tmux select-pane -t 0
 tmux resize-pane -R 30
 
 tmux new-window -t $SESSION -a -n vim
-tmux split-window -h
 tmux select-pane -t 0
 
 tmux new-window -t $SESSION -a -n vim
-tmux split-window -v
 tmux select-pane -t 0
 
 tmux new-window -t $SESSION -a -n bpython
-tmux split-window -h
 tmux select-pane -t 0
 tmux resize-pane -R 30
 

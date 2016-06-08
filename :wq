@@ -92,7 +92,7 @@ nmap <Down> <C-w>j
 nmap <Left> <C-w>h
 nmap <Right> <C-w>l
 
-let mapleader = "\<space>"
+let mapleader = "\<Space>"
 
 " Tab through windows
 nmap <Tab> <C-W>w
@@ -155,14 +155,14 @@ autocmd FileType python set sts=4
 
 " Proper PEP8 indentation
 " (https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/)
-" au BufNewFile,BufRead *.py
-"    \ set tabstop=4
-"    \ set softtabstop=4
-"    \ set shiftwidth=4
-"    \ set textwidth=79
-"    \ set expandtab
-"    \ set autoindent
-"    \ set fileformat=unix
+au BufNewFile,BufRead *.py
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
 
 " UTF8 Support
 set encoding=utf-8

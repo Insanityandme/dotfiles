@@ -1,0 +1,32 @@
+pane	16	1	:bash	1	:*	0	:/Users/insanityandme	1	bash	:
+pane	16	2	:bash	0	:-	0	:/Users/insanityandme/.dotfiles	1	bash	:
+pane	2	1	:Vim	0	:-	0	:/Users/insanityandme	1	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim .tmux.conf
+pane	2	2	:bash	1	:*	0	:/Users/insanityandme/.dotfiles/tmux/plugins/tmux-resurrect	1	bash	:
+pane	3	1	:bash	1	:*	0	:/Users/insanityandme	1	bash	:
+pane	4	1	:bash	1	:*	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	5	1	:bash	1	:*	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	7	1	:[tmux]	1	:*	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	1	:vim	1	:*	0	:/Users/insanityandme	0	bash	:
+pane	digital_life	1	:vim	1	:*	1	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	2	:vim	0	:-	0	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	2	:vim	0	:-	1	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	3	:vim	0	:#	0	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	3	:vim	0	:#	1	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	4	:vim	0	:#	0	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	4	:vim	0	:#	1	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	5	:bpython	0	:#	0	:/Users/insanityandme/projects/digital_life	0	bash	:
+pane	digital_life	5	:bpython	0	:#	1	:/Users/insanityandme/projects/digital_life	1	bash	:
+window	16	1	1	:*	cd02,181x48,0,0,5
+window	16	2	0	:-	cd03,181x48,0,0,6
+window	2	1	0	:-	ccff,181x48,0,0,2
+window	2	2	1	:*	cd01,181x48,0,0,4
+window	3	1	1	:*	cd00,181x48,0,0,3
+window	4	1	1	:*	cd04,181x48,0,0,7
+window	5	1	1	:*	cd05,181x48,0,0,8
+window	7	1	1	:*	cd06,181x48,0,0,9
+window	digital_life	1	1	:*	6361,181x48,0,0{120x48,0,0,10,60x48,121,0,11}
+window	digital_life	2	0	:-	6364,181x48,0,0{120x48,0,0,12,60x48,121,0,13}
+window	digital_life	3	0	:#	4481,181x48,0,0{90x48,0,0,14,90x48,91,0,15}
+window	digital_life	4	0	:#	c286,181x48,0,0[181x24,0,0,16,181x23,0,25,17]
+window	digital_life	5	0	:#	636d,181x48,0,0{120x48,0,0,18,60x48,121,0,19}
+state	16	digital_life
