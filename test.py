@@ -1,2 +1,1 @@
-
-print("LOL")
+print (5/2)

@@ -17,4 +17,4 @@ alias dg='source /Users/insanityandme/projects/.virtualenvs/digital_life/bin/act
 alias testd='source /Users/insanityandme/projects/.virtualenvs/testdjango/bin/activate'
 
 # Bpython for python 3.5 (this would be for a global bpython, not really used atm)
-# alias bpython3.5='PYTHONPATH=/Library/Frameworks/Python.framework/Versions/2.7/bin/bpython python3.5 -m bpython.cli'
+alias bpython3.5='PYTHONPATH=/Library/Frameworks/Python.framework/Versions/2.7/bin/bpython python3.5 -m bpython.cli'

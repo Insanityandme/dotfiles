@@ -1,0 +1,43 @@
+pane	0	1	:bash	1	:*	0	:/Users/insanityandme/projects	1	bash	:
+pane	digital_life	1	:vim	0	:-	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	2	:vim	0	:	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	3	:vim	0	:	0	:/Users/insanityandme/projects/.virtualenvs/digital_life/lib/python3.5/site-packages	1	bash	:
+pane	digital_life	4	:server	1	:*	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	digital_life	5	:bpython	0	:	0	:/Users/insanityandme/projects/digital_life	1	bash	:
+pane	insanityandme	1	:vim	1	:*	0	:/Users/insanityandme	1	bash	:
+pane	insanityandme	2	:vim	0	:	0	:/Users/insanityandme	1	bash	:
+pane	insanityandme	3	:vim	0	:	0	:/Users/insanityandme	1	bash	:
+pane	insanityandme	4	:vim	0	:	0	:/Users/insanityandme	1	bash	:
+pane	insanityandme	5	:bpython	0	:-	0	:/Users/insanityandme	1	bash	:
+pane	test_python_structure	1	:vim	1	:*	0	:/Users/insanityandme/projects/test_django_structure/test_django_structure	1	bash	:
+pane	test_python_structure	2	:vim	0	:	0	:/Users/insanityandme/projects/test_django_structure/newsletter	1	bash	:
+pane	test_python_structure	3	:vim	0	:-	0	:/Users/insanityandme	1	bash	:
+pane	test_python_structure	4	:vim	0	:	0	:/Users/insanityandme	1	bash	:
+pane	test_python_structure	5	:bpython	0	:	0	:/Users/insanityandme	1	bash	:
+pane	testdjango	1	:Vim	1	:*	0	:/Users/insanityandme/projects/testdjango/newsletter	1	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim models.py
+pane	testdjango	2	:Vim	0	:-	0	:/Users/insanityandme/projects/testdjango/testdjango	1	bash	:
+pane	testdjango	3	:bash	0	:	0	:/Users/insanityandme/projects/testdjango	1	bash	:
+pane	testdjango	4	:server	0	:	0	:/Users/insanityandme/projects/testdjango	1	bash	:
+pane	testdjango	5	:bpython	0	:	0	:/Users/insanityandme/projects/testdjango	1	bash	:
+window	0	1	1	:*	ccfe,181x48,0,0,1
+window	digital_life	1	0	:-	ccff,181x48,0,0,2
+window	digital_life	2	0	:	cd00,181x48,0,0,3
+window	digital_life	3	0	:	cd01,181x48,0,0,4
+window	digital_life	4	1	:*	cd02,181x48,0,0,5
+window	digital_life	5	0	:	cd03,181x48,0,0,6
+window	insanityandme	1	1	:*	64b6,181x47,0,0,17
+window	insanityandme	2	0	:	64b7,181x47,0,0,18
+window	insanityandme	3	0	:	64b8,181x47,0,0,19
+window	insanityandme	4	0	:	e4af,181x47,0,0,20
+window	insanityandme	5	0	:-	e4b0,181x47,0,0,21
+window	test_python_structure	1	1	:*	cd04,181x48,0,0,7
+window	test_python_structure	2	0	:	cd05,181x48,0,0,8
+window	test_python_structure	3	0	:-	cd06,181x48,0,0,9
+window	test_python_structure	4	0	:	66af,181x48,0,0,10
+window	test_python_structure	5	0	:	66b0,181x48,0,0,11
+window	testdjango	1	1	:*	66b1,181x48,0,0,12
+window	testdjango	2	0	:-	66b2,181x48,0,0,13
+window	testdjango	3	0	:	66b3,181x48,0,0,14
+window	testdjango	4	0	:	66b4,181x48,0,0,15
+window	testdjango	5	0	:	66b5,181x48,0,0,16
+state	0	testdjango
