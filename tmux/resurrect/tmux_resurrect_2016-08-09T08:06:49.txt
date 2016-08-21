@@ -1,0 +1,17 @@
+pane	0	1	:bash	1	:*	0	:/Users/insanityandme/projects/mysite_project/mysite/projects	0	bash	:
+pane	0	1	:bash	1	:*	1	:/Users/insanityandme/projects/mysite_project	1	bash	:
+pane	0	6	:server	0	:-	0	:/Users/insanityandme/projects/mysite_project	1	bash	:
+pane	0	6	:server	0	:-	1	:/Users/insanityandme	0	bash	:
+pane	0	6	:server	0	:-	2	:/Users/insanityandme/projects/mysite_project	0	bash	:
+pane	0	6	:server	0	:-	3	:/Users/insanityandme	0	bash	:
+pane	1	1	:Vim	1	:*	0	:/Users/insanityandme/projects/djangobook_project/djangobook	1	bash	:
+pane	1	1	:Vim	1	:*	1	:/Users/insanityandme/projects/djangobook_project/djangobook/templates	0	bash	:
+pane	1	2	:db	0	:-	0	:/usr/local/var/postgres	0	bash	:
+pane	1	2	:db	0	:-	1	:/Users/insanityandme/projects/djangobook_project	0	bash	:
+pane	1	2	:db	0	:-	2	:/Users/insanityandme/projects/djangobook_project	1	bash	:
+pane	1	2	:db	0	:-	3	:/Users/insanityandme/projects/djangobook_project	0	bash	:
+window	0	1	1	:*	0f65,181x48,0,0{90x48,0,0,1,90x48,91,0,2}
+window	0	6	0	:-	1a84,181x48,0,0{90x48,0,0[90x24,0,0,3,90x23,0,25,4],90x48,91,0[90x24,91,0,5,90x23,91,25,6]}
+window	1	1	1	:*	0f80,181x48,0,0{90x48,0,0,7,90x48,91,0,8}
+window	1	2	0	:-	62a0,181x48,0,0{90x48,0,0[90x24,0,0,9,90x23,0,25,10],90x48,91,0[90x24,91,0,11,90x23,91,25,12]}
+state	1	0

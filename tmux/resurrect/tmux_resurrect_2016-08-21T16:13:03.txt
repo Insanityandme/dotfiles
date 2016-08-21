@@ -1,0 +1,9 @@
+pane	4	1	:Python	1	:*	0	:/Users/insanityandme/projects/mysite_project	0	bash	:
+pane	4	1	:Python	1	:*	1	:/Users/insanityandme/projects/mysite_project	1	Python	:/usr/bin/python -O /usr/local/bin/ranger
+pane	4	2	:db	0	:-	0	:/usr/local/var/postgres	0	postgres	:postgres -D /usr/local/var/postgres/
+pane	4	2	:db	0	:-	1	:/Users/insanityandme/projects/mysite_project	1	python3.5	:python manage.py shell
+pane	4	2	:db	0	:-	2	:/Users/insanityandme/projects/mysite_project	0	python3.5	:python manage.py runserver 8080
+pane	4	2	:db	0	:-	3	:/Users/insanityandme/projects/mysite_project/src	0	bash	:
+window	4	1	1	:*	c283,181x48,0,0[181x24,0,0,14,181x23,0,25,15]
+window	4	2	0	:-	12b9,181x48,0,0[181x24,0,0{90x24,0,0,16,90x24,91,0,21},181x23,0,25{90x23,0,25,17,90x23,91,25,18}]
+state	4	

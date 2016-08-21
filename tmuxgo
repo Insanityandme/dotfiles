@@ -23,5 +23,3 @@ tmux resize-pane -R 30
 
 tmux select-window -t $SESSION:1
 tmux -2 attach -t $SESSION
-
-

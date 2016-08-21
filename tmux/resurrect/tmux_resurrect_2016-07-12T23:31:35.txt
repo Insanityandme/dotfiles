@@ -1,0 +1,13 @@
+pane	0	1	:vim	1	:*	0	:/Users/insanityandme	1	bash	:
+pane	0	2	:vim	0	:-	0	:/Users/insanityandme	1	bash	:
+pane	0	3	:vim	0	:	0	:/Users/insanityandme	1	bash	:
+pane	0	4	:vim	0	:	0	:/Users/insanityandme	1	bash	:
+pane	0	5	:bpython	0	:	0	:/Users/insanityandme	1	bash	:
+pane	0	6	:server	0	:	0	:/Users/insanityandme	1	bash	:
+window	0	1	1	:*	c8fd,181x47,0,0,0
+window	0	2	0	:-	c902,181x47,0,0,5
+window	0	3	0	:	c903,181x47,0,0,6
+window	0	4	0	:	c904,181x47,0,0,7
+window	0	5	0	:	c905,181x47,0,0,8
+window	0	6	0	:	c906,181x47,0,0,9
+state	0	

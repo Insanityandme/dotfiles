@@ -18,6 +18,11 @@ Plugin 'ervandew/supertab'
 Plugin 'SirVer/ultisnips'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-virtualenv'
+
+" syntax highlighter for vue components
+Plugin 'posva/vim-vue'
+
+" For tracking time developing
 Plugin 'wakatime/vim-wakatime'
 
 " Snippets are seperated from the engine. Add this if you want them:
@@ -61,7 +66,10 @@ set nu " number lines
 set backspace=indent,eol,start " allow backspacing over everything
 filetype indent on
 set showmatch " show the matching part of the pair [] {} and ()
-
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undofile
+set undodir=~/.vim/undo//
 
 " use 2 spaces instead of tabs during formatting
 set expandtab
@@ -120,7 +128,7 @@ let g:ycm_use_ultisnips_completer = 1 " Default 1, just ensure
 let g:ycm_seed_identifiers_with_syntax = 1 " Completion for programming language's keyword
 let g:ycm_complete_in_comments = 1 " Completion in comments
 let g:ycm_complete_in_strings = 1 " Completion in string
-let g:ycm_server_python_interpreter = ''
+let g:ycm_server_python_interpreter = '/usr/local/bin/python2.7'
 
 " YouCompleteMe and Ultisnips compatibility, with the helper of supertab
 " (via http://stackoverflow.com/a/22253548/1626737)
@@ -141,6 +149,9 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_mode_map={ 'mode': 'active',
+                     \ 'active_filetypes': [],
+                     \ 'passive_filetypes': ['html'] }
 
 " ------------------------
 " Python specific settings
@@ -166,6 +177,7 @@ autocmd FileType python set sts=4
 "    \ set expandtab
 "    \ set autoindent
 "    \ set fileformat=unix
+"
 
 " UTF8 Support
 set encoding=utf-8
@@ -182,4 +194,3 @@ EOF
 
 " Make your code look pretty
 let python_highlight_all=1
-

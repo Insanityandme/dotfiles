@@ -1,0 +1,28 @@
+pane	0	1	:vim	0	:	0	:/Users/insanityandme/projects/mysite_project	0	bash	:bash -x
+pane	0	1	:vim	0	:	1	:/Users/insanityandme/projects/mysite_project	1	bash	:
+pane	0	2	:vim	1	:*	0	:/Users/insanityandme/projects/mysite_project/mysite/settings	1	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim base.py
+pane	0	3	:templates	0	:-	0	:/Users/insanityandme/projects/mysite_project/mysite/templates	1	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim index.html
+pane	0	3	:templates	0	:-	1	:/Users/insanityandme/projects/mysite_project/mysite/static/css	0	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim main.css
+pane	0	4	:blog	0	:	0	:/Users/insanityandme/projects/mysite_project/mysite/blog	1	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim models.py
+pane	0	5	:dbshell	0	:	0	:/Users/insanityandme/projects/mysite_project	1	bash	:
+pane	0	5	:dbshell	0	:	1	:/Users/insanityandme/projects/mysite_project	0	bash	:
+pane	0	6	:server	0	:	0	:/Users/insanityandme/projects/mysite_project	1	python3.5	:python manage.py runserver
+pane	0	7	:psql	0	:	0	:/Users/insanityandme/.dotfiles	1	bash	:
+pane	0	8	:vimrc, virtualenv	0	:	0	:/Users/insanityandme/projects/.virtualenvs	1	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim mysite_test/bin/activate
+pane	1	1	:python3.5	1	:*	0	:/Users/insanityandme/projects/djangobook_project/books	0	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim models.py
+pane	1	1	:python3.5	1	:*	1	:/Users/insanityandme/projects/djangobook_project	1	python3.5	:python manage.py shell
+pane	1	2	:db	0	:-	0	:/usr/local/var/postgres	0	postgres	:postgres -D /usr/local/var/postgres/
+pane	1	2	:db	0	:-	1	:/Users/insanityandme/projects/djangobook_project	0	python3.5	:python manage.py runserver 8080
+pane	1	2	:db	0	:-	2	:/Users/insanityandme/projects/djangobook_project	1	python3.5	:python manage.py shell -i bpython
+pane	1	2	:db	0	:-	3	:/Users/insanityandme/projects/djangobook_project	0	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim commands.txt
+window	0	1	0	:	c806,181x48,0,0{90x48,0,0,0,90x48,91,0,10}
+window	0	2	1	:*	cd02,181x48,0,0,5
+window	0	3	0	:-	0813,181x48,0,0{90x48,0,0,6,90x48,91,0,20}
+window	0	4	0	:	cd04,181x48,0,0,7
+window	0	5	0	:	4481,181x48,0,0{90x48,0,0,14,90x48,91,0,15}
+window	0	6	0	:	cd06,181x48,0,0,9
+window	0	7	0	:	66b0,181x48,0,0,11
+window	0	8	0	:	66b1,181x48,0,0,12
+window	1	1	1	:*	0487,181x48,0,0{90x48,0,0,17,90x48,91,0,24}
+window	1	2	0	:-	6b2a,181x48,0,0{90x48,0,0[90x24,0,0,18,90x23,0,25,23],90x48,91,0[90x24,91,0,19,90x23,91,25,22]}
+state	1	0

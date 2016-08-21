@@ -1,3 +1,6 @@
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # Set architecture flags
 export ARCHFLAGS="-arch x86_64"
 
@@ -12,17 +15,6 @@ fi
 
 export LANG=en_US.UTF-8
 
-# Setting PATH for Python 3.5
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
-export PATH
-
-# Setting PATH for Python 2.7
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
-export PATH
-
 # Environment Variables for django development, see http://12factor.net/config
-# Apparently this can be set through virtualenvwrapper
 export SOME_SECRET_KEY=1c3-cr3am-15-yummy
 export FILIP_FREEZER_KEY=y34h-r1ght-d0nt-t0uch-my-1c3-cr34m

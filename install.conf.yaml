@@ -9,5 +9,4 @@
     ~/.tmux.conf: tmux.conf
     ~/.tmux : tmux
     ~/.tmuxgo : tmuxgo
-    ~/.irbrc : irbrc
 

@@ -1,0 +1,19 @@
+pane	0	1	:Python	1	:*	0	:/Users/insanityandme/projects/mysite_project/mysite/templates	1	Python	:/usr/bin/python -O /usr/local/bin/ranger
+pane	0	1	:Python	1	:*	1	:/Users/insanityandme/projects/mysite_project/mysite/settings	0	Python	:/usr/bin/python -O /usr/local/bin/ranger
+pane	0	2	:db	0	:-	0	:/Users/insanityandme/projects/mysite_project/mysite/projects	1	bash	:
+pane	0	2	:db	0	:-	1	:/Users/insanityandme/projects/mysite_project/mysite/templates	0	bash	:
+pane	0	2	:db	0	:-	2	:/Users/insanityandme	0	bash	:
+pane	0	2	:db	0	:-	3	:/Users/insanityandme	0	bash	:
+pane	1	1	:Vim	1	:*	0	:/Users/insanityandme/projects/djangobook_project/djangobook	0	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim static/js/main.js
+pane	1	1	:Vim	1	:*	1	:/Users/insanityandme/projects/djangobook_project/djangobook/learningmistakes	1	bash	:
+pane	1	2	:db	0	:-	0	:/usr/local/var/postgres	0	postgres	:postgres -D /usr/local/var/postgres/
+pane	1	2	:db	0	:-	1	:/Users/insanityandme/projects/djangobook_project	1	python3.5	:python manage.py runserver 8080
+pane	1	2	:db	0	:-	2	:/Users/insanityandme/projects/djangobook_project	0	bash	:
+pane	1	2	:db	0	:-	3	:/Users/insanityandme/projects/djangobook_project	0	python3.5	:python manage.py shell
+pane	3	1	:bash	1	:*	0	:/Users/insanityandme	1	bash	:
+window	0	1	1	:*	0f65,181x48,0,0{90x48,0,0,1,90x48,91,0,2}
+window	0	2	0	:-	d23e,181x48,0,0[181x24,0,0{90x24,0,0,13,90x24,91,0,16},181x23,0,25{90x23,0,25,14,90x23,91,25,15}]
+window	1	1	1	:*	0f80,181x48,0,0{90x48,0,0,7,90x48,91,0,8}
+window	1	2	0	:-	62a0,181x48,0,0{90x48,0,0[90x24,0,0,9,90x23,0,25,10],90x48,91,0[90x24,91,0,11,90x23,91,25,12]}
+window	3	1	1	:*	66b7,181x48,0,0,18
+state	1	0

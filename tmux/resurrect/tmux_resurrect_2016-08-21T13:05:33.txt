@@ -1,0 +1,9 @@
+pane	4	1	:Vim	0	:-	0	:/Users/insanityandme/projects/mysite_project/mysite	1	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim views.py
+pane	4	1	:Vim	0	:-	1	:/Users/insanityandme/projects/mysite_project/mysite	0	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim urls.py
+pane	4	2	:db	1	:*	0	:/usr/local/var/postgres	0	postgres	:postgres -D /usr/local/var/postgres/
+pane	4	2	:db	1	:*	1	:/Users/insanityandme/projects/mysite_project	1	bash	:
+pane	4	2	:db	1	:*	2	:/Users/insanityandme/projects/mysite_project	0	python3.5	:python manage.py runserver 8080
+pane	4	2	:db	1	:*	3	:/Users/insanityandme/projects/mysite_project	0	bash	:
+window	4	1	0	:-	c283,181x48,0,0[181x24,0,0,14,181x23,0,25,15]
+window	4	2	1	:*	12b9,181x48,0,0[181x24,0,0{90x24,0,0,16,90x24,91,0,21},181x23,0,25{90x23,0,25,17,90x23,91,25,18}]
+state	4	

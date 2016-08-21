@@ -1,0 +1,18 @@
+pane	0	1	:vim	1	:*	0	:/Users/insanityandme/projects/mysite_project/mysite	1	bash	:bash -x
+pane	0	1	:vim	1	:*	1	:/Users/insanityandme/projects/mysite_project	0	bash	:
+pane	0	2	:vim	0	:	0	:/Users/insanityandme/projects/mysite_project/mysite/settings	1	bash	:
+pane	0	3	:vim	0	:	0	:/Users/insanityandme/projects/mysite_project/mysite/templates/mysite	1	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim index.html
+pane	0	4	:vim	0	:	0	:/Users/insanityandme/projects	1	bash	:
+pane	0	5	:bpython	0	:	0	:/Users/insanityandme	1	bash	:
+pane	0	6	:server	0	:	0	:/Users/insanityandme/projects/mysite_project	1	python3.5	:python manage.py runserver
+pane	0	7	:psql	0	:-	0	:/usr/local/var/postgres	1	postgres	:postgres -D /usr/local/var/postgres/
+pane	0	8	:misc	0	:	0	:/Users/insanityandme/projects/.virtualenvs	1	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim mysite_test/bin/activate
+window	0	1	1	:*	c806,181x48,0,0{90x48,0,0,0,90x48,91,0,10}
+window	0	2	0	:	cd02,181x48,0,0,5
+window	0	3	0	:	cd03,181x48,0,0,6
+window	0	4	0	:	cd04,181x48,0,0,7
+window	0	5	0	:	cd05,181x48,0,0,8
+window	0	6	0	:	cd06,181x48,0,0,9
+window	0	7	0	:-	66b0,181x48,0,0,11
+window	0	8	0	:	66b1,181x48,0,0,12
+state	0	
